@@ -1,0 +1,122 @@
+    * {
+        overflow-x: hidden;
+    }
+    
+    body{
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    header{
+        color: #FEE8DA;
+
+    }
+
+    .inicio {
+        text-align: center;
+        background-image: url(scr/cortes/barbearia1.png);
+        height: 700px;
+        width: 1350px;
+        margin: auto;
+    }
+
+  .titulo {
+    color: #D9C6B0;
+  }
+
+    h1, h2, h3{
+        margin: 0;
+
+    }
+
+    nav ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    nav li{
+    display:inline-block;
+    margin-right: 20px;
+    
+    }
+
+    nav a{
+        text-decoration: none;
+        color: #fff;
+
+    }
+
+    section{
+        padding: 40px 20px;
+        text-align: center;
+
+    }
+
+    #banner, #contato{
+        background-color: white;
+
+    }
+
+    #banner h2{
+        font-size: 36px;
+
+    }
+
+    #banner p {
+        text-align: center;
+        color: #0D0D0D;
+    }
+
+    .servico{
+        display: inline-block;
+        vertical-align: top;
+        width: 45%;
+        padding: 20px;
+        margin-bottom: 40px;
+        background-color: #f2f2f2;
+
+    }
+
+    .servico img{
+        width: 100px;
+
+    }
+    footer{
+        background-color: #911717;
+        padding: 20px;
+        color: #FEE8DA;
+        text-align: center;
+
+    }
+    form{
+        text-align: center;
+
+    }
+
+    input,textarea{
+        margin-bottom: 10px;
+        padding: 10px;
+        width: 100%;
+
+    }
+
+    button{
+        padding: 10px 20px;
+        background-color: #911717;
+        color: #FEE8DA;
+        border: none;
+        cursor: pointer;
+
+    }
+
+    .btn-agendar{
+        background-color: #911717;
+        color: #FEE8DA;
+        padding: 10px 20px;
+        text-decoration: none;
+        border-radius: 5px;
+    }
