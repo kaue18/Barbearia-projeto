@@ -1,5 +1,7 @@
     * {
         overflow-x: hidden;
+        box-sizing: border-box;
+        font-family: 'Poppins', sans-serif;
     }
     
     body{
@@ -9,22 +11,66 @@
 
     }
 
-    header{
-        color: #FEE8DA;
-
-    }
-
     .inicio {
         text-align: center;
-        background-image: url(scr/cortes/barbearia1.png);
-        height: 700px;
-        width: 1350px;
+        background-image: url(scr/cortes/jovem-na-barbearia-aparando-cabelo.jpg);
+        height: 100vh;
+        width: 200vh;
+        background-size: 100%;
+        background-repeat: no-repeat;
+        padding: auto;
         margin: auto;
+        
     }
 
   .titulo {
-    color: #D9C6B0;
+    color: #F1EDEC;
   }
+
+  
+  html{
+    background-color: #FFFFFF;
+}
+
+.container{
+    max-width: 1280px;
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header i{
+    font-size: 30px;
+    color: #fff;
+}
+
+header ul{
+    list-style-type: none;
+}
+
+header ul li{
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header ul li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-contato button{
+    width: 120px;
+    height: 40px;
+    border: 0;
+    background-color: #8A1600;
+    color: #fff;
+    cursor: pointer;
+    transition: .2s;
+}
 
     h1, h2, h3{
         margin: 0;
